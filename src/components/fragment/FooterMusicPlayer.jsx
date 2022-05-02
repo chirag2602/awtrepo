@@ -16,10 +16,11 @@ import {ThemeContext} from "../../api/Theme";
 import {useDispatch, useSelector} from "react-redux";
 import {setBannerOpen, setCurrentPlaying} from "../../actions/actions";
 import Button from "@material-ui/core/Button";
+import {Cloudinary} from "@cloudinary/url-gen";
 
 function FooterMusicPlayer({music}) {
-
-    const [{id, name, author_name, img, musicName}, setCurrTrack] = useState(music);
+    console.log(music);
+    const [{id, name, author_name, img, musicName, url}, setCurrTrack] = useState(music);
     const [isRepeatClicked, setRepeatClick] = useState(false);
     const [isPrevClicked, setPrevClicked] = useState(false);
     const [isNextClicked, setNextClicked] = useState(false);
@@ -166,8 +167,7 @@ function FooterMusicPlayer({music}) {
                                       changeIcon={<SkipPreviousIcon fontSize={"large"}/>}
                                       onClicked={handleToggle}/>
 
-                <audio ref={audioElement} src={require("../assets/music/" + musicName).default} preload={"metadata"}/>
-
+                <audio ref={audioElement} src={`${url}`} preload={"metadata"}/>
                 <ControlsToggleButton style={pointer} type={"play-pause"}
                                       defaultIcon={<PlayArrowIcon fontSize={"large"}/>}
                                       changeIcon={<PauseIcon fontSize={"large"}/>}

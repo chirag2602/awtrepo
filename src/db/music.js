@@ -7,6 +7,7 @@ let musicDB = [
         lang: "ENGLISH",
         timesPlayed: 0,
         type: "electronic",
+        url:"https://res.cloudinary.com/mellomusic/video/upload/v1651296298/Mello/Clarx_-_Shakedown_NCS_Release_oux4e1.mp3",
         musicName: "Clarx - Shakedown [NCS Release].mp3",
         attribution: {
             song: "Clarx - Shakedown [NCS Release]",
@@ -24,6 +25,7 @@ let musicDB = [
         timesPlayed: 0,
         type:"instrumental",
         musicName: "mixkit-games-worldbeat-466.mp3",
+        url:"https://res.cloudinary.com/mellomusic/video/upload/v1651296302/Mello/mixkit-games-worldbeat-466_hgjyyu.mp3",
         attribution: {
             song: "Games Worldbeat",
             musicBy: "mixkit",
@@ -40,6 +42,7 @@ let musicDB = [
         type: "electronic",
         timesPlayed: 0,
         musicName: "ROY KNOX -  Over My Head (Feat. Mike Robert) [NCS Release].mp3",
+        url:"https://res.cloudinary.com/mellomusic/video/upload/v1651296308/Mello/ROY_KNOX_-_Over_My_Head_Feat._Mike_Robert_NCS_Release_hiyhvi.mp3",
         attribution: {
             song: "ROY KNOX - Over My Head (Feat. Mike Robert) [NCS Release]",
             musicBy: "NoCopyrightSounds",
@@ -55,7 +58,8 @@ let musicDB = [
         lang: "ENGLISH",
         timesPlayed: 0,
         type: "electronic",
-        musicName: "Subtact - Want You (feat. Sara Skinner) [NCS Release].mp3",
+        musicName: "Subtact_-_Want_You_feat._Sara_Skinner_NCS_Release_chsd9q.mp3",
+        url:"https://res.cloudinary.com/mellomusic/video/upload/v1651296320/Mello/Subtact_-_Want_You_feat._Sara_Skinner_NCS_Release_chsd9q.mp3",
         attribution: {
             song: "Subtact - Want You (feat. Sara Skinner) [NCS Release]",
             musicBy: "NoCopyrightSounds",
@@ -72,6 +76,7 @@ let musicDB = [
         timesPlayed: 0,
         type: "electronic",
         musicName: "Midranger - Apocalypse [NCS Release].mp3",
+        url:"https://res.cloudinary.com/mellomusic/video/upload/v1651296315/Mello/Midranger_-_Apocalypse_NCS_Release_z1supw.mp3",
         attribution: {
             song: "Midranger - Apocalypse [NCS Release]",
             musicBy: "NoCopyrightSounds",
@@ -88,6 +93,7 @@ let musicDB = [
         timesPlayed: 0,
         type: "electronic",
         musicName: "N3WPORT - Alive (feat. Neoni) [NCS Release].mp3",
+        url:"https://res.cloudinary.com/mellomusic/video/upload/v1651296305/Mello/N3WPORT_-_Alive_feat._Neoni_NCS_Release_bgchkr.mp3",
         attribution: {
             song: "N3WPORT - Alive (feat. Neoni) [NCS Release]",
             musicBy: "NoCopyrightSounds",
@@ -104,6 +110,7 @@ let musicDB = [
         timesPlayed: 0,
         type:"instrumental",
         musicName: "impact.mp3",
+        url:"https://res.cloudinary.com/mellomusic/video/upload/v1651296292/Mello/impact_xiimck.mp3",
         attribution: {
             song: "Impact Moderato",
             musicBy: "Kevin MacLeod",
@@ -120,6 +127,7 @@ let musicDB = [
         timesPlayed: 0,
         type:"instrumental",
         musicName: "impact2.mp3",
+        url:"https://res.cloudinary.com/mellomusic/video/upload/v1651296303/Mello/impact2_hb9xwy.mp3",
         attribution: {
             song: "Impact Moderato",
             musicBy: "Kevin MacLeod",
@@ -136,6 +144,7 @@ let musicDB = [
         timesPlayed: 0,
         type: "electronic",
         musicName: "Heuse & Tom Wilson - Ignite [NCS Release].mp3",
+        url:"https://res.cloudinary.com/mellomusic/video/upload/v1651296295/Mello/Heuse_Tom_Wilson_-_Ignite_NCS_Release_zf5n6a.mp3",
         attribution: {
             song: "Heuse & Tom Wilson - Ignite [NCS Release]",
             musicBy: "NoCopyrightSounds",
