@@ -151,7 +151,24 @@ let musicDB = [
             download: "http://ncs.io/Ignite",
             stream: "http://youtu.be/zbqgv0mMfwk"
         }
-    }
+    },
+    {
+      id: 9,
+      name: "Shiddat",
+      author_name: "Manan Bhardwaj",
+      img: "shiddat.jpg",
+      lang: "HINDI",
+      timesPlayed: 0,
+      type: "love",
+      musicName: "Shiddat (Title Track).mp3",
+      url:"https://res.cloudinary.com/mellomusic/video/upload/v1651562068/Mello/Shiddat_Title_Track_spfpfh.mp3",
+      attribution: {
+          song: "Shiddat [Title Song]",
+          musicBy: "T-Series",
+          download: "https://www.pagalworld.pw/shiddat-title-song-mp3-song/download.html",
+          stream: "https://www.youtube.com/watch?v=4POvT6O0ygE"
+      }
+  }
 ];
 
 export default musicDB;
